@@ -88,7 +88,7 @@ export default class NasaHome extends Component<Props, State> {
         />
 
         <TouchableOpacity
-          disabled={
+          disabled={ 
             this.state.input.length == "0"
               ? true
               : this.state.input.length == undefined
